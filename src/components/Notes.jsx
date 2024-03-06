@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Notes = () => {
-  const baseURL = `${import.meta.env.VITE_SERVER_URL}/api/notes`;
+  const baseURL = 'https://notes-app-mern-ffed951f1ac3.herokuapp.com/api/notes';
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);

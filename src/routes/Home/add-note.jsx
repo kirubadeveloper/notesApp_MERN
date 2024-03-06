@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function AddNote() {
-  const baseUrl = `${import.meta.env.VITE_SERVER_URL}/api/notes`;
+  const baseUrl = 'https://notes-app-mern-ffed951f1ac3.herokuapp.com/api/notes';
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [submitted, setSubmitted] = useState(false);
