@@ -6,7 +6,7 @@ function UpdateNote() {
   const { id } = useParams();
   const navigate = useNavigate();
 
-  const baseUrl = 'https://notes-app-mern-ffed951f1ac3.herokuapp.com/api/notes/${id}';
+  const baseUrl = `https://notes-app-mern-ffed951f1ac3.herokuapp.com/api/notes/${id}`;
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [submitted, setSubmitted] = useState(false);
